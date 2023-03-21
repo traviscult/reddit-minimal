@@ -1,6 +1,5 @@
 /**
  * Shorten number to thousands, millions, billions, etc.
- * Source: https://stackoverflow.com/questions/9461621/format-a-number-as-2-5k-if-a-thousand-or-more-otherwise-900
  * @param {number} num Number to shorten
  * @param {number} digits The number of digits to appear after the decimal point.
  */
