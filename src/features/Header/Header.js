@@ -28,17 +28,17 @@ const Header = () => {
       <div className="logo">
         <FcReddit className="logo-icon" />
         <p>Reddit Minimal</p>
-        <form className="search" onSubmit={onSearchTermSubmit}>
-          <input
-            type="text"
-            value={searchTermLocal}
-            onChange={onSearchTermChange}
-            placeholder="Search Reddit"
-          />
-          <button type="submit" onClick={onSearchTermSubmit}></button>
-          <FaSearch />
-        </form>
       </div>
+      <form className="search" onSubmit={onSearchTermSubmit}>
+        <input
+          type="text"
+          value={searchTermLocal}
+          onChange={onSearchTermChange}
+          placeholder="Search Reddit"
+        />
+        <button type="submit" onClick={onSearchTermSubmit}></button>
+        <FaSearch />
+      </form>
     </header>
   );
 };
