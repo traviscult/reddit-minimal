@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./header.css";
+import "./Header.css";
 import { FcReddit } from "react-icons/fc";
 import { FaSearch } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
-import { setSearchTerm } from "../store/redditSlice";
+import { setSearchTerm } from "../../store/redditSlice";
 
 const Header = () => {
   const [searchTermLocal, setSearchTermLocal] = useState("");
