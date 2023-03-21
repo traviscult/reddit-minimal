@@ -3,6 +3,8 @@ import { getSubredditPosts, getPostComments } from "../api/reddit";
 
 const initialState = {
   posts: [],
+  error: false,
+  isLoading: false,
   searchTerm: "",
   selectedSubreddit: "/r/programmingmemes/",
 };
@@ -38,7 +40,7 @@ const redditSlice = createSlice({
         !state.posts[action.payload].showingComments;
     },
     startGetComments(state, action) {
-      // If hiding comments, don't fetch the comments.
+      // If we're hiding comment, don't fetch the comments.
       state.posts[action.payload].showingComments =
         !state.posts[action.payload].showingComments;
       if (!state.posts[action.payload].showingComments) {

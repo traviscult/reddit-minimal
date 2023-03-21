@@ -27,6 +27,7 @@ header .logo-icon {
 .search input {
   flex-grow: 1;
   background-color: rgb(54, 54, 60);
+  color: rgb(216, 216, 217);
   border: none;
   padding: 5px;
   height: max-content;
