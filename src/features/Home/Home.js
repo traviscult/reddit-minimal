@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { AnimatedList } from "react-animated-list";
 import Post from "../Post/Post";
 import PostLoading from "../Post/PostLoading";
 import getRandomNumber from "../../utils/getRandomNumber";
@@ -30,7 +31,11 @@ const Home = () => {
   };
 
   if (isLoading) {
-    return <>{Array(getRandomNumber(3, 10)).fill(<PostLoading />)}</>;
+    return (
+      <AnimatedList animation="zoom">
+        {Array(getRandomNumber(3, 10)).fill(<PostLoading />)}
+      </AnimatedList>
+    );
   }
 
   if (error) {
