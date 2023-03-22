@@ -10,5 +10,5 @@
   border-radius: var(--radius);
   padding: var(--spacing-3);
   transition: box-shadow 0.1s ease-in;
-  color: var(--color-text-secondary);
+  color: var(--color-text-body);
 }
