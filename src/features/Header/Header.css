@@ -1,43 +1,44 @@
 header .logo {
   font-weight: bold;
+  padding: var(--spacing-1) 0;
   grid-column: 1/2;
   display: flex;
   align-items: center;
-  font-size: 20px;
 }
 
 header {
+  color: var(--color-branding);
+  background: var(--color-background);
+  box-shadow: var(--box-shadow);
   height: 64px;
-  background-color: rgb(33, 33, 36);
-  color: rgb(216, 216, 217);
-  padding: 5px;
+  padding: 0 var(--spacing-5);
 }
 
 header .logo-icon {
   grid-column: 2/3;
-  font-size: 3rem;
-  padding: 10px;
+  margin-right: var(--spacing-1);
+  font-size: 2rem;
 }
 
 .search {
   display: flex;
   align-items: center;
-  margin-left: 15px;
 }
+
 .search input {
   flex-grow: 1;
-  background-color: rgb(54, 54, 60);
-  color: rgb(216, 216, 217);
+  background: var(--color-background-secondary);
   border: none;
-  padding: 5px;
+  padding: var(--spacing-1) var(--spacing-2);
   height: max-content;
-  border-radius: 3px;
+  border-radius: var(--radius);
+  color: var(--color-foreground);
 }
 
 .search button {
   background: none;
   border: none;
   cursor: pointer;
-  color: rgb(216, 216, 217);
+  color: var(--color-text-secondary);
   font-size: 1.5rem;
 }

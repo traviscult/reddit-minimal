@@ -3,12 +3,12 @@
   --color-background-secondary: rgb(54, 54, 60);
   --color-foreground: #ffffff;
   --color-border: #e6e6e6;
-  --color-text-header: #444444;
-  --color-text-body: #6f6f6f;
+  --color-text-header: rgb(216, 216, 217);
+  --color-text-body: #f5f1f1;
   --color-text-secondary: #717171;
   --color-text-invert: #ffffff;
   --color-text-link: #4ec3f5;
-  --color-branding: #3d5af1;
+  --color-branding: #f13d3d;
   --color-branding-transparent: #3d5af140;
 
   --color-alert: #ff304f;

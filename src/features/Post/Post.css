@@ -8,7 +8,7 @@
 
 .post-details {
   margin-top: var(--spacing-2);
-  border-top: 1px solid var(--color-border);
+  border-top: 2px solid var(--color-border);
   padding-top: var(--spacing-1);
   font-size: 0.75rem;
   display: flex;
@@ -33,7 +33,7 @@
 
 .post-title {
   margin: 0;
-  margin-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-3);
   color: var(--color-text-header);
 }
 

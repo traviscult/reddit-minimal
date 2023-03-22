@@ -6,7 +6,7 @@ const initialState = {
   error: false,
   isLoading: false,
   searchTerm: "",
-  selectedSubreddit: "/r/programmingmemes/",
+  selectedSubreddit: "/r/ProgrammerHumor/",
 };
 
 const redditSlice = createSlice({

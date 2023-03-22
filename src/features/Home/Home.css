@@ -6,12 +6,11 @@
 }
 
 .error button {
-  background-color: rgb(54, 54, 60);
-  background: rgb(33, 33, 36);
-  color: rgb(216, 216, 217);
+  color: var(--color-text-invert);
+  background: var(--color-branding);
   border: none;
-  border-radius: 5px;
+  border-radius: var(--radius);
   font-size: 1rem;
-  padding: 8px, 16px;
+  padding: var(--spacing-2) var(--spacing-4);
   cursor: pointer;
 }
