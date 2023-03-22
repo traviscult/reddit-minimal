@@ -36,8 +36,9 @@ const Header = () => {
           onChange={onSearchTermChange}
           placeholder="Search Reddit"
         />
-        <button type="submit" onClick={onSearchTermSubmit}></button>
-        <FaSearch />
+        <button type="submit" onClick={onSearchTermSubmit}>
+          <FaSearch />
+        </button>
       </form>
     </header>
   );
