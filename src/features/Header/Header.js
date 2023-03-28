@@ -32,9 +32,9 @@ const Header = () => {
       <form className="search" onSubmit={onSearchTermSubmit}>
         <input
           type="text"
+          placeholder="Search Reddit"
           value={searchTermLocal}
           onChange={onSearchTermChange}
-          placeholder="Search Reddit"
         />
         <button type="submit" onClick={onSearchTermSubmit}>
           <FaSearch />
