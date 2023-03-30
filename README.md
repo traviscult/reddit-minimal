@@ -16,7 +16,7 @@ https://reddit-minimal-react-app.netlify.app/
 
 ## Description
 
-A web application that ustilizes the Reddit API to fetch data. This web application was developed using React and Redux.
+A web application that ustilizes the Reddit API to fetch and display data. This web application was developed using React and Redux.
 
 ## Built With
 
